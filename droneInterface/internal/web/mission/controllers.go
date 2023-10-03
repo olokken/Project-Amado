@@ -1,7 +1,7 @@
-package controllers
+package mission
 
 import (
-	"drones"
+	"github.com/olokken/Project-Amado/droneInterface/internal/drones"
 
 	"github.com/gin-gonic/gin"
 )
