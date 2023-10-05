@@ -9,7 +9,7 @@ import (
 func main() {
 	router := gin.Default()
 
-	var drone drones.IDrone = &drones.Tello{ConnectionString: "8888"}
+	var drone drones.IDrone = drones.NewTelloDrone("8890")
 
 	var missionController mission.IMissionController = &mission.MissionController{Drone: drone}
 

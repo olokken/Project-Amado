@@ -7,5 +7,5 @@ import (
 var prefix string = "mission"
 
 func MissionRoutes(router *gin.RouterGroup, controller IMissionController) {
-	router.POST(prefix, controller.PlanMission)
+	router.POST(prefix, controller.HandleMission)
 }
