@@ -1,6 +1,8 @@
 package drones
 
 import (
+	"time"
+
 	"github.com/olokken/Project-Amado/droneInterface/internal/domain"
 	"gobot.io/x/gobot"
 	"gobot.io/x/gobot/platforms/dji/tello"
@@ -20,8 +22,14 @@ func NewTelloDrone(connectionstring string) *Tello {
 
 func (t *Tello) HandleMission(mission domain.Mission) {
 	work := func() {
-		t.Driver.TakeOff()
-		SetupMission(t, mission)
+		t.Driver.On(tello.ConnectedEvent, func(data interface{}) {
+			t.Driver.TakeOff()
+			t.Driver.Forward(50)
+
+			gobot.After(2*time.Second, func() {
+				t.Driver.Land()
+			})
+		})
 	}
 
 	robot := gobot.NewRobot("tello",
@@ -30,7 +38,7 @@ func (t *Tello) HandleMission(mission domain.Mission) {
 		work,
 	)
 
-	robot.Start()
+	robot.Start(false)
 }
 
 func (t *Tello) Forward(length float64) {

@@ -25,5 +25,9 @@ func (m *MissionController) HandleMission(c *gin.Context) {
 		return
 	}
 
-	m.Drone.HandleMission(mission)
+	go m.Drone.HandleMission(mission)
+
+	c.JSON(200, gin.H{
+		"message": "Mission is being handled",
+	})
 }
