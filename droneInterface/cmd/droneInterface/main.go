@@ -12,6 +12,7 @@ func main() {
 	var drone drones.IDrone = drones.NewTelloDrone("8890")
 
 	var missionController mission.IMissionController = &mission.MissionController{Drone: drone}
+	/* var statusController status.IStatusContrller = &status.StatusController{Drone: drone} */
 
 	v1 := router.Group("api/v1")
 	{

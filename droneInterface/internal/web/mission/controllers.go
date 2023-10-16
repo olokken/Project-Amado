@@ -25,7 +25,7 @@ func (m *MissionController) HandleMission(c *gin.Context) {
 		return
 	}
 
-	go m.Drone.HandleMission(mission)
+	go m.Drone.HandleMission(mission) //asynkront feilmelding handling
 
 	c.JSON(200, gin.H{
 		"message": "Mission is being handled",
