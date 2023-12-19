@@ -1,0 +1,18 @@
+{
+    "name": "ROS 2 Humble",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "."
+    },
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-iot.vscode-ros"
+    ],
+    "runArgs": [
+        "--privileged",
+        "--network=ros"
+    ],
+    "postCreateCommand": "echo 'ROS 2 Humble Dev Container Ready!'"
+}
