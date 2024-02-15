@@ -11,16 +11,17 @@ from  pydantic  import  BaseModel
 from std_msgs.msg import String, Empty
 from geometry_msgs.msg import Twist
 
+# Converted logic from tello-ros2 tello_controll
+
 app = FastAPI()
 
 class  Response ( BaseModel ): 
     msg :  str 
 
-
-class API(Node):
+class ManualControl(Node):
 
     def __init__(self):
-        super().__init__('api')
+        super().__init__('api_manual_control_node')
         self.publisher_land = self.create_publisher(Empty, 'land', 1)
         self.publisher_flip = self.create_publisher(String, 'flip', 1)
         self.publisher_takeoff = self.create_publisher(Empty, 'takeoff', 10)
@@ -89,7 +90,7 @@ class API(Node):
 
 def main(args=None):
     rclpy.init()
-    node = API()
+    node = ManualControl()
     rclpy.spin(node)
     node.shutdown()
     rclpy.shutdown()
