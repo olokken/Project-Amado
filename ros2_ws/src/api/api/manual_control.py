@@ -3,9 +3,7 @@ from rclpy.node import Node
 from fastapi import FastAPI
 import asyncio
 import websockets
-import rclpy
-import cv2
-from  typing  import  Optional 
+import rclpy 
 from  pydantic  import  BaseModel 
 
 from std_msgs.msg import String, Empty
