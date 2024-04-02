@@ -51,7 +51,7 @@ def generate_launch_description():
             namespace='/',
             name='rviz2',
             respawn=True,
-            arguments=['-d', '/home/tentone/Git/tello-slam/workspace/src/rviz.rviz']
+            arguments=['-d', '/home/ole/Dev/project-amado/tentone-tello-ros2-main/workspace/src/rviz.rviz']
         ),
 
         # Static TF publisher
@@ -63,35 +63,6 @@ def generate_launch_description():
             arguments=['0', '0', '0', '0', '0', '0', '1', 'map', 'drone'],
             respawn=True
         ),
-
-        # ORB SLAM
-        # Node(
-        #     package='orbslam2',
-        #     executable='mono',
-        #     output='screen',
-        #     namespace='/',
-        #     name='orbslam',
-        #     respawn=True,
-        #     remappings=[
-        #         ('/camera', '/image_raw')
-        #     ],
-        #     arguments=['~/Git/tello-slam/libs/ORB_SLAM2/Vocabulary/ORBvoc.txt', '~/Git/tello-slam/workspace/src/orbslam2/config.yaml']
-        # ),
-
-        # Camera calibration node
-        # Node(
-        #     package='camera_calibration',
-        #     executable='cameracalibrator',
-        #     output='screen',
-        #     respawn=True,
-        #     namespace='/',
-        #     name='calibration',
-        #     arguments=['--size', '7x9', '--square', '0.20'],
-        #     parameters=[
-        #         {'image': '/image_raw'},
-        #         {'camera': '/camera_info'}
-        #     ]
-        # )
     ]
 
 

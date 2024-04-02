@@ -1,0 +1,7 @@
+[01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/occupancy_grid.hpp: No such file or directory
+    4 | #include [01;31m[K"nav_msgs/msg/occupancy_grid.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mono.dir/build.make:90: CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mono.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

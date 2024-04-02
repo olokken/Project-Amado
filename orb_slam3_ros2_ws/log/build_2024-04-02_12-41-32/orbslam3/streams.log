@@ -1,0 +1,1270 @@
+[0.011s] Invoking command in '/home/ole/Dev/project-amado/orb_slam3_ros2_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ole/Dev/project-amado/tentone-tello-ros2-main/workspace/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/ole/Dev/project-amado/orb_slam3_ros2_ws/build/orbslam3 -- -j12 -l12
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target mono[0m
+[0.065s] [ 50%] Built target mono-inertial
+[0.072s] [ 66%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/mono.cpp.o[0m
+[0.072s] [ 83%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o[0m
+[3.278s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:30[m[K,
+[3.278s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.278s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.278s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.278s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.278s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.278s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.278s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.279s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.279s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[3.279s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.279s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[3.279s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.365s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.365s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.365s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.365s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.365s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.365s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.365s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.365s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.366s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.366s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.366s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.366s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[3.366s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.366s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.366s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[3.366s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.366s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.366s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.366s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.366s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.367s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.367s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.367s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.367s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.367s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.367s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.367s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.367s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.367s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.367s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.367s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.367s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.380s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.380s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.380s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.380s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.381s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.381s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.381s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.381s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.381s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[3.381s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.381s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.382s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.382s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.382s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.383s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.383s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.383s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.383s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.383s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.383s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.383s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.383s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.383s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.383s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.383s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.383s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.383s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.384s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.384s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[3.384s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.384s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.384s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.384s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.384s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.384s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.384s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.384s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.384s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.384s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.385s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.385s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.385s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.385s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.385s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.385s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.385s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.411s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+[3.411s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.411s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.411s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.411s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.411s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.411s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.411s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.412s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.412s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.412s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.412s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.412s]    43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+[3.412s]       |                                      [01;35m[K^[m[K
+[3.412s]       |                                      [31m[K-[m[K
+[3.540s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:30[m[K,
+[3.540s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.540s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.540s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.540s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.540s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.540s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.541s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.541s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.541s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[3.541s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.541s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[3.541s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.630s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.630s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.630s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.630s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.630s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.631s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.631s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.631s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.631s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.631s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.631s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.631s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[3.631s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.631s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.631s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[3.631s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.632s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.632s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.632s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.632s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.632s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.632s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.632s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.632s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.632s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.632s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.632s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.633s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.633s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.633s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.633s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.633s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.645s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.645s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.645s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.645s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.645s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.645s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.645s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.645s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.646s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.646s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.646s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.646s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[3.646s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[3.646s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.646s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.646s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.646s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.646s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.646s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.647s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.648s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.648s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.648s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.655s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.656s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.656s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.656s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.656s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.656s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.656s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.656s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.656s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.656s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.656s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.656s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.657s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.657s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[3.657s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.657s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.657s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.657s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.657s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.657s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.657s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.657s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.657s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.657s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.658s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.658s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.658s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.658s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.658s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.658s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.658s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.658s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.658s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.658s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.658s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.658s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.659s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.659s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.659s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.659s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.659s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.659s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.659s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.659s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.659s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[3.659s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.659s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.660s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.661s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.661s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.661s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.666s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.667s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.667s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.667s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.667s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.667s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.667s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.667s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.667s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.667s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.667s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.667s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[3.667s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[3.667s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.668s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.668s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.668s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.668s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.668s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.668s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.668s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.668s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.668s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.668s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.668s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.668s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.668s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.669s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.669s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.669s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.669s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.669s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.669s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.712s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+[3.712s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.712s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.712s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.713s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.713s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.713s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.713s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.713s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.713s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.713s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.713s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.713s]    43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+[3.713s]       |                                      [01;35m[K^[m[K
+[3.714s]       |                                      [31m[K-[m[K
+[3.738s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.739s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.739s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.739s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.739s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.739s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.739s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.739s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.739s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.739s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.739s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.739s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[3.740s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[3.740s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.740s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.740s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.740s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.740s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.740s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.740s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.740s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.740s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.741s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.741s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.741s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.741s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.741s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.741s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.741s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.741s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.741s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.741s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.741s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.741s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.742s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.742s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.742s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.742s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.742s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.742s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.742s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.742s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.742s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.742s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.742s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.742s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.743s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.743s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.743s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.743s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.743s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.743s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.743s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.743s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.743s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.743s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.743s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.743s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.744s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.744s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.744s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.744s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.744s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.744s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.788s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.788s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.788s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.788s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.788s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.788s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.788s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.788s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.788s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.788s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.789s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.789s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[3.789s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[3.789s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.789s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.789s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.789s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.789s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.789s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.789s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.789s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.789s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.789s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.790s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.790s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.790s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.790s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.790s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.790s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.790s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.790s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.790s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.790s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.798s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.798s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.798s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.798s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.798s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.798s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.798s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.799s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.799s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.799s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.799s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.799s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.799s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.799s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.799s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.799s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.799s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.800s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.801s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.801s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.801s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.848s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.848s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.848s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.848s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.848s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.848s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.848s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.849s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.849s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.849s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.849s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.849s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[3.849s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[3.849s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.849s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.849s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.849s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.849s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.850s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.850s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.850s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.850s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.850s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.850s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.850s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.850s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.850s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.850s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.851s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.851s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.851s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.851s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.851s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.851s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.851s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.851s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.851s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.851s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.851s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.851s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.852s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.852s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.852s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.852s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.852s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.852s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.852s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.852s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.852s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.852s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.852s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.853s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.853s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.853s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.853s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.853s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.853s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.853s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.853s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.853s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.853s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.853s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.854s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.854s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.975s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.975s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.975s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.975s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.975s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.975s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.975s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.976s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.976s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.976s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.976s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.976s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[3.976s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[3.976s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.976s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.976s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.976s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.977s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.977s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.977s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.977s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.977s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.977s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.977s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.977s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.977s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.977s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.977s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.978s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.978s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.978s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.978s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.978s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.995s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.996s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[3.996s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[3.996s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.996s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.996s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.996s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.996s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.996s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.996s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.996s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.997s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[3.997s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[3.997s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.997s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.997s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.997s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.997s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.997s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.997s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.997s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.998s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[3.998s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[3.998s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[3.998s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[3.998s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[3.998s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[3.998s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[3.998s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[3.998s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[3.998s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.999s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.999s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.017s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[4.018s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.018s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.018s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.018s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.018s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.018s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.018s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.018s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.018s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.018s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.019s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[4.019s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[4.019s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.019s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[4.019s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.019s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.019s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.019s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.019s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.019s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.019s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.020s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.020s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.020s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.020s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.020s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.020s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.020s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.020s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.020s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.020s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.021s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.045s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.045s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.045s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.045s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.045s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.045s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.045s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.046s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.046s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.046s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.046s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.046s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[4.046s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[4.046s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.046s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.046s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.046s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.046s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.047s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.048s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.048s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.048s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.048s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.048s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.048s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.048s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.048s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.048s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.048s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.048s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.049s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.049s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.049s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.049s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.049s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.049s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.049s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.049s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.049s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.049s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.049s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.049s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.050s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.050s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.050s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.050s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.050s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.050s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.050s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.050s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.050s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.050s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.050s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.050s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.066s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.066s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.066s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.066s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.066s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.066s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.067s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.067s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.067s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.067s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.067s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.067s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[4.067s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[4.067s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.067s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.067s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.068s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.068s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.068s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.068s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.068s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.068s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.068s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.068s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.068s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.068s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.068s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.068s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.069s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.069s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.069s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.069s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.069s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.069s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.069s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.069s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.069s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.069s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.069s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.070s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.070s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.070s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.070s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.070s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.070s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.070s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.070s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.070s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.070s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.070s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.071s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.071s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.072s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.072s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.079s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.079s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.079s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.079s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.079s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.079s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.080s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.080s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.080s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.080s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.080s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.080s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[4.080s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[4.080s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.080s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.080s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.080s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.080s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.081s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.082s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.082s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.082s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.090s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.090s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.090s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.090s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.091s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.091s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.091s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.091s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.091s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.091s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.091s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.091s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.091s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.091s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.091s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.091s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.092s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.093s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.093s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.093s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.117s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.117s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.117s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.117s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.117s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.118s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.118s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.118s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.118s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.118s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.118s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.118s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[4.118s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[4.118s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.118s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.119s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.119s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.119s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.119s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.119s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.119s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.119s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.119s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.119s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.119s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.120s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.120s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.120s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.120s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.120s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.120s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.120s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.120s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.127s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.128s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.128s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.128s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.128s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.128s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.128s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.128s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.128s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.128s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.128s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.128s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.129s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.129s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.129s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.129s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.129s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.129s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.129s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.129s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.129s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.129s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.129s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.129s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.129s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.130s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.130s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.130s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.130s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.130s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.130s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.176s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.176s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.176s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.176s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.177s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.177s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.177s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.177s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.177s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.177s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.177s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.177s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[4.177s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[4.177s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.178s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.178s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.178s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.178s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.178s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.178s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.178s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.178s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.178s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.178s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.178s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.179s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.179s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.179s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.179s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.179s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.179s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.179s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.179s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.179s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.179s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.179s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.179s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.180s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.180s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.180s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.180s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.180s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.180s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.180s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.180s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.180s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.180s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.181s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.181s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.181s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.181s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.181s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.181s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.181s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.181s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.181s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.181s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.181s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.181s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.182s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.182s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.182s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.182s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.182s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.344s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[4.344s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.345s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.345s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.345s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.345s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.345s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.345s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.345s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.345s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.345s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.345s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[4.346s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[4.346s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.346s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[4.346s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.346s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.346s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.346s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.346s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.346s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.346s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.347s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.347s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.347s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.347s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.347s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.347s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.347s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.347s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.347s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.347s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.347s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.376s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.376s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.376s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.376s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.376s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.377s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.377s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.377s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.377s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.377s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.377s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.377s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[4.377s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[4.377s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.377s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.377s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.378s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.378s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.378s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.378s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.378s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.378s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.378s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.378s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.378s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.378s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.378s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.378s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.379s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.379s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.379s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.379s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.379s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.379s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.379s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.379s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.379s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.379s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.379s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.379s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.380s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.380s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.380s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.380s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.380s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.380s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.380s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.380s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.380s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.380s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.380s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.380s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.381s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.381s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.381s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.381s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.381s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.381s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.434s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.434s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.434s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.434s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.434s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.434s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.434s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.434s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.435s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.435s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.435s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.435s] /home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[4.435s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[4.435s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.435s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.435s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.435s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.435s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.435s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.436s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.436s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.437s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.437s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.457s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.457s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Converter.h:26[m[K,
+[4.457s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:33[m[K,
+[4.457s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.458s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.458s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.458s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.458s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.458s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.458s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.458s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.458s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.458s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.458s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.458s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.459s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:28[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.459s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.460s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[4.460s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.460s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.460s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.914s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Atlas.h:26[m[K,
+[4.914s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:25[m[K,
+[4.914s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.914s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.914s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.914s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.915s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.915s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[4.915s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.915s]    83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+[4.915s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.916s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.916s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+[4.916s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.916s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.916s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+[4.916s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.916s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.916s]    84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+[4.916s]       |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[4.916s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.917s]    84 |                                  Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+[4.917s]       |                                                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[4.917s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.917s]    85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+[4.917s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.917s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.917s]    85 |                                  const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+[4.917s]       |                                                           [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.917s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.917s]    86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+[4.917s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[4.917s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Atlas.h:27[m[K,
+[4.917s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:25[m[K,
+[4.918s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.918s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.918s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.918s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.918s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.918s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[4.918s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.918s]   102 |         const float [01;35m[Kprecision[m[K;
+[4.918s]       |                     [01;35m[K^~~~~~~~~[m[K
+[4.918s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.918s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[4.918s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[4.918s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Atlas.h:27[m[K,
+[4.919s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:25[m[K,
+[4.919s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.919s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.919s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.919s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.919s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.919s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.919s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[4.919s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.919s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Atlas.h:27[m[K,
+[4.919s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:25[m[K,
+[4.919s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[4.920s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[4.920s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[4.920s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[4.920s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.920s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[4.920s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.920s]   102 |         const float [01;35m[Kprecision[m[K;
+[4.920s]       |                     [01;35m[K^~~~~~~~~[m[K
+[4.920s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.920s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[4.920s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[4.920s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.921s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[4.921s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.921s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[4.921s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.921s]   102 |         const float [01;35m[Kprecision[m[K;
+[4.921s]       |                     [01;35m[K^~~~~~~~~[m[K
+[4.921s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.921s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[4.921s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[4.921s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.921s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[4.921s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.091s] [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:[m[K In constructor ‘[01m[KMonocularSlamNode::MonocularSlamNode(ORB_SLAM3::System*)[m[K’:
+[5.092s] [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:32:39:[m[K [01;31m[Kerror: [m[K‘[01m[KPublishMapPointsAsPointCloud[m[K’ is not a member of ‘[01m[KMonocularSlamNode[m[K’
+[5.092s]    32 |         std::bind(&MonocularSlamNode::[01;31m[KPublishMapPointsAsPointCloud[m[K, this));
+[5.092s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.121s] [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:[m[K At global scope:
+[5.122s] [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:118:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MonocularSlamNode::PublishMapPointsAsPointCloud()[m[K’
+[5.122s]   118 | void [01;31m[KMonocularSlamNode[m[K::PublishMapPointsAsPointCloud()
+[5.122s]       |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.122s] [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:118:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid MonocularSlamNode::PublishMapPointsAsPointCloud()[m[K’
+[5.122s] In file included from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[5.122s] [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MonocularSlamNode[m[K’ defined here
+[5.122s]    21 | class [01;36m[KMonocularSlamNode[m[K : public rclcpp::Node
+[5.122s]       |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.028s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Atlas.h:26[m[K,
+[6.028s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:25[m[K,
+[6.028s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[6.029s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[6.029s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[6.029s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[6.029s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[6.029s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[6.029s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.029s]    83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+[6.029s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.029s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.029s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+[6.029s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.030s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.030s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+[6.030s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.030s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.030s]    84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+[6.031s]       |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[6.031s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.031s]    84 |                                  Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+[6.031s]       |                                                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[6.031s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.031s]    85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+[6.031s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[6.031s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.031s]    85 |                                  const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+[6.031s]       |                                                           [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[6.031s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.032s]    86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+[6.032s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[6.032s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Atlas.h:27[m[K,
+[6.032s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:25[m[K,
+[6.032s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[6.032s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[6.032s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[6.032s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[6.032s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[6.032s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[6.032s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.033s]   102 |         const float [01;35m[Kprecision[m[K;
+[6.033s]       |                     [01;35m[K^~~~~~~~~[m[K
+[6.033s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.033s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[6.033s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[6.033s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Atlas.h:27[m[K,
+[6.033s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:25[m[K,
+[6.033s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[6.033s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[6.033s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[6.033s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[6.033s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[6.034s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.034s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[6.034s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[6.034s] In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Atlas.h:27[m[K,
+[6.034s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:25[m[K,
+[6.034s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+[6.034s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+[6.034s]                  from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+[6.034s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:14[m[K,
+[6.034s]                  from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[6.034s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[6.035s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.035s]   102 |         const float [01;35m[Kprecision[m[K;
+[6.035s]       |                     [01;35m[K^~~~~~~~~[m[K
+[6.035s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.035s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[6.035s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[6.035s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.035s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[6.035s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[6.035s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[6.035s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.035s]   102 |         const float [01;35m[Kprecision[m[K;
+[6.036s]       |                     [01;35m[K^~~~~~~~~[m[K
+[6.036s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.036s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[6.036s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[6.036s] [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.036s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[6.036s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[11.366s] gmake[2]: *** [CMakeFiles/mono.dir/build.make:90: CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o] Error 1
+[11.366s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mono.dir/all] Error 2
+[11.366s] gmake: *** [Makefile:146: all] Error 2
+[11.368s] Invoked command in '/home/ole/Dev/project-amado/orb_slam3_ros2_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ole/Dev/project-amado/tentone-tello-ros2-main/workspace/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/ole/Dev/project-amado/orb_slam3_ros2_ws/build/orbslam3 -- -j12 -l12

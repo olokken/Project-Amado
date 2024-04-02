@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ole/Dev/project-amado/orb_slam3_ros2_ws/build/orbslam3/mono" "/home/ole/Dev/project-amado/orb_slam3_ros2_ws/build/orbslam3/mono-inertial" "TARGETS" "mono" "mono-inertial" "DESTINATION" "lib/orbslam3")

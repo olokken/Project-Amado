@@ -20,7 +20,7 @@ The original code is BSD licensed.
 * Function *ORBmatcher::DescriptorDistance* in *ORBmatcher.cc*.
 The code is from: http://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetParallel.
 The code is in the public domain.
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #####Code in Thirdparty folder
 
 * All code in **DBoW2** folder.

@@ -1,0 +1,62 @@
+In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:30[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:12[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/mono.cpp:7[m[K:
+[01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/ImuTypes.h:29:10:[m[K [01;31m[Kfatal error: [m[Ksophus/se3.hpp: No such file or directory
+   29 | #include [01;31m[K<sophus/se3.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:30[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/mono-inertial/mono-inertial-slam-node.hpp:13[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/mono-inertial/mono-inertial.cpp:7[m[K:
+[01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/ImuTypes.h:29:10:[m[K [01;31m[Kfatal error: [m[Ksophus/se3.hpp: No such file or directory
+   29 | #include [01;31m[K<sophus/se3.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mono.dir/build.make:76: CMakeFiles/mono.dir/src/monocular/mono.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/mono-inertial.dir/build.make:76: CMakeFiles/mono-inertial.dir/src/mono-inertial/mono-inertial.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:30[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.hpp:12[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/monocular/monocular-slam-node.cpp:1[m[K:
+[01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/ImuTypes.h:29:10:[m[K [01;31m[Kfatal error: [m[Ksophus/se3.hpp: No such file or directory
+   29 | #include [01;31m[K<sophus/se3.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mono.dir/build.make:90: CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mono.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Frame.h:30[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Viewer.h:23[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/Tracking.h:26[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/System.h:31[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/mono-inertial/mono-inertial-slam-node.hpp:13[m[K,
+                 from [01m[K/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/src/mono-inertial/mono-inertial-slam-node.cpp:1[m[K:
+[01m[K/home/ole/Dev/project-amado/orb-slam3-stereo-fixed-master/include/ImuTypes.h:29:10:[m[K [01;31m[Kfatal error: [m[Ksophus/se3.hpp: No such file or directory
+   29 | #include [01;31m[K<sophus/se3.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mono-inertial.dir/build.make:90: CMakeFiles/mono-inertial.dir/src/mono-inertial/mono-inertial-slam-node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mono-inertial.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

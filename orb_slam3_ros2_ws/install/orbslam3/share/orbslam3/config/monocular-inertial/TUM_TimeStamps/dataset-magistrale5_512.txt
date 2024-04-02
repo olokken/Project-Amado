@@ -1,0 +1,1 @@
+/home/ole/Dev/project-amado/orb_slam3_ros2_ws/orb_slam3_ros2-main/config/monocular-inertial/TUM_TimeStamps/dataset-magistrale5_512.txt
