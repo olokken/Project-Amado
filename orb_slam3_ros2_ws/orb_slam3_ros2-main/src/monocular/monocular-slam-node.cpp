@@ -118,7 +118,6 @@ void MonocularSlamNode::PublishMapPointsAsPointCloud()
     sensor_msgs::msg::PointCloud2 cloud;
     cloud.header.frame_id = "map"; // Use appropriate frame_id
     cloud.header.stamp = rclcpp::Clock().now();
-    cloud.height = 1; // Unstructured point cloud
     cloud.width = mapPoints.size();
     
     sensor_msgs::PointCloud2Modifier modifier(cloud);
@@ -131,15 +130,28 @@ void MonocularSlamNode::PublishMapPointsAsPointCloud()
     sensor_msgs::PointCloud2Iterator<float> iter_y(cloud, "y");
     sensor_msgs::PointCloud2Iterator<float> iter_z(cloud, "z");
 
+
+
     for (const auto& point : mapPoints)
     {
+        if (!point) { // Check if the pointer is null
+            cout << "Encountered a null MapPoint pointer." << endl;
+            continue; // Skip this iteration
+        }
+
+    // Safe to access methods on point now
+        if (point->isBad()) {
+            cout << "MapPoint is marked as bad." << endl;
+            continue;
+        }
+
         Eigen::Vector3f pos = point->GetWorldPos();
         *iter_x = pos.x();
         *iter_y = pos.y();
         *iter_z = pos.z();
         ++iter_x;
         ++iter_y;
-        ++iter_z;
+        ++iter_z; 
     }
 
     m_pointcloud_pub->publish(cloud);

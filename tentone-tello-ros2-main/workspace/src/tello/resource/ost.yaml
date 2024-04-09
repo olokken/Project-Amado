@@ -1,20 +1,24 @@
-image_width: 960
-image_height: 720
-camera_name: narrow_stereo
+image_width: 256
+image_height: 192
+camera_name: camera_front_depth
 camera_matrix:
   rows: 3
   cols: 3
-  data: [919.424717, 0.000000, 459.655779, 0.000000, 911.926190, 323.551997, 0.000000, 0.000000, 1.000000]
+  data: [246.511,  0.     , 128.0,
+           0.     , 245.537, 96.0,
+           0.     ,   0.     ,  1.    ]
 distortion_model: plumb_bob
 distortion_coefficients:
   rows: 1
   cols: 5
-  data: [-0.041948, 0.048619, -0.022789, -0.004038, 0.000000]
+  data: [0.0, 0.0, 0.0, 0.0, 0.0]  # Assuming minimal distortion in depth images
 rectification_matrix:
   rows: 3
   cols: 3
-  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
 projection_matrix:
   rows: 3
   cols: 4
-  data: [924.081787, 0.000000, 455.713683, 0.000000, 0.000000, 904.971619, 310.291689, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]
+  data: [246.511,0.,128.0,0.,0.,245.537,96.0,0.,0.,0.,1.,0.]

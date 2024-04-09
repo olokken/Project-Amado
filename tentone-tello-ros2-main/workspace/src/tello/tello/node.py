@@ -92,7 +92,7 @@ class TelloNode():
         self.pub_imu = self.node.create_publisher(Imu, 'imu', 1)
         self.pub_battery = self.node.create_publisher(BatteryState, 'battery', 1)
         self.pub_temperature = self.node.create_publisher(Temperature, 'temperature', 1)
-        self.pub_odom = self.node.create_publisher(Odometry, 'odom', 1)
+        # self.pub_odom = self.node.create_publisher(Odometry, 'odom', 1)
 
         # TF broadcaster
         if self.tf_pub:
@@ -145,7 +145,7 @@ class TelloNode():
                     msg.orientation.y = q[1]
                     msg.orientation.z = q[2]
                     msg.orientation.w = q[3]
-                    self.pub_imu.publish(msg)
+                    #self.pub_imu.publish(msg)
 
                 # Odometry
                 if self.pub_odom.get_subscription_count() > 0:
@@ -161,7 +161,7 @@ class TelloNode():
                     odom_msg.twist.twist.linear.x = float(self.tello.get_speed_x()) / 100.0
                     odom_msg.twist.twist.linear.y = float(self.tello.get_speed_y()) / 100.0
                     odom_msg.twist.twist.linear.z = float(self.tello.get_speed_z()) / 100.0
-                    self.pub_odom.publish(odom_msg)
+                    #self.pub_odom.publish(odom_msg)
                 
                 time.sleep(rate)
 
