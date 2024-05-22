@@ -1,0 +1,15 @@
+"062de88e-8da2-4ba6-94cd-1ee1fe531f5c": {
+    "id": "062de88e-8da2-4ba6-94cd-1ee1fe531f5c",
+    "isOccupied": true,
+    "number": 12,
+    "hasFreePeriod": false,
+    "position": {
+        "x": 5,
+        "y": 5,
+        "z": 5,
+        "o_x": 5, 
+        "o_y": 5,
+        "o_z": 5,
+        "o_w":5
+    }
+  }

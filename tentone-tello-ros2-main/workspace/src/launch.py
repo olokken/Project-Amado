@@ -1,4 +1,3 @@
-
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
@@ -54,16 +53,48 @@ def generate_launch_description():
             arguments=['-d', '/home/ole/Dev/project-amado/tentone-tello-ros2-main/workspace/src/rviz.rviz']
         ),
 
-        # Static TF publisher
-        # Node(
-        #     package='tf2_ros',
-        #     executable='static_transform_publisher',
-        #     namespace='/',
-        #     name='tf',
-        #     arguments=['0', '0', '0', '0', '0', '0', '1', 'map', 'drone'],
-        #     respawn=True
-        # ),
-    ]
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            namespace='/',
+            name='static_tf_pub_drone_to_base_link',
+            output='screen',
+            arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '1.0', 'base_link', 'drone'], 
+        ),
 
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            name='static_tf_pub_camera',
+            output='screen',
+            arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '1.0', 'drone', 'camera_depth_frame'],        
+        ),
+
+        # SLAM Toolbox node
+        Node(
+            package='slam_toolbox',
+            executable='async_slam_toolbox_node',
+            output='screen',
+            namespace='/',
+            name='slam_toolbox',
+            parameters=['/home/ole/Dev/project-amado/configs/slam_toolbox.yaml']
+        ),
+         Node(
+            package='depthimage_to_laserscan',
+            executable='depthimage_to_laserscan_node',
+            name='depthimage_to_laserscan',
+            output='screen',
+            parameters=[
+                {'range_min': 0.1},
+                {'range_max': 10.0},
+                {'scan_time': 0.033},
+                {'output_frame_id': 'camera_depth_frame'},
+            ],
+            remappings=[
+                ('/depth/image_rect_raw', '/camera/depth/image_raw'),
+                ('/depth/camera_info', '/camera/depth/camera_info')
+            ]
+        ),         
+    ]
 
     return LaunchDescription(nodes)
